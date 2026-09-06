@@ -60,7 +60,7 @@ services.muscleEvent = lp.player:WaitForChild("muscleEvent")
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xyzhenrik/libvariations/refs/heads/main/librarys/isaac.luau"))()
 local silence = library:AddWindow("Pain---Private | Hey, " .. lp.displayname .. "!", {
-    main_color = Color3.fromRGB(138, 0, 0),
+    main_color = Color3.fromRGB(0, 0, 255),
     min_size = Vector2.new(500, 500),
     can_resize = false
 })
